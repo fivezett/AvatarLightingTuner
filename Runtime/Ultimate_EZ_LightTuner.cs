@@ -10,7 +10,7 @@ namespace AvatarLightingTuner
         [MenuItem("Tools/AvatarLightingTuner/Ultimate_EZ_LightTuner")]
         public static void ShowWindow()
         {
-            var window = EditorWindow.GetWindow(typeof(Ultimate_EZ_LightTuner), false, "Ultimate_EZ_LightTuner v1.1");
+            var window = EditorWindow.GetWindow(typeof(Ultimate_EZ_LightTuner), false, "Ultimate_EZ_LightTuner v1.2");
         }
 
         private List<Animator> _avatars = new List<Animator>();
@@ -18,7 +18,7 @@ namespace AvatarLightingTuner
 
         void OnFocus()
         {
-            _avatars = FindObjectsOfType<Animator>().Where(a => a.avatar.isHuman).ToList();
+            _avatars = FindObjectsOfType<Animator>().Where(a => a.avatar != null).Where(a => a.avatar.isHuman).ToList();
         }
 
         void OnGUI()
