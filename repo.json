@@ -1,0 +1,16 @@
+{
+  "name": "AvatarLightingTuner",
+  "id": "dev.goze.avatar-lighting-tuner-repo",
+  "url": "https://fivezett.github.io/AvatarLightingTuner/repo.json",
+  "author": "fivezett",
+  "packages": {
+    "dev.goze.avatar-lighting-tuner": {
+      "versions": {
+        "1.0.0": {
+          "name": "dev.goze.avatar-lighting-tuner",
+          "url" : "https://github.com/fivezett/AvatarLightingTuner/releases/download/1.0.0/AvatarLightingTuner-1.0.0.zip"
+        }
+      }
+    }
+  }
+}
