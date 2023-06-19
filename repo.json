@@ -8,6 +8,7 @@
       "versions": {
         "1.0.0": {
           "name": "dev.goze.avatar-lighting-tuner",
+          "version": "1.0.0",
           "displayName": "AvatarLightingTuner",
           "url" : "https://github.com/fivezett/AvatarLightingTuner/releases/download/1.0.0/AvatarLightingTuner-1.0.0.zip"
         }
